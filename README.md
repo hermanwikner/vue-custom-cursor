@@ -1,5 +1,7 @@
 # Vue-Custom-Cursor
 
+Include the component in `App.vue`.
+
 ![alt text](https://raw.githubusercontent.com/hermanwikner/Vue-Custom-Cursor/master/vue-custom-cursor.gif)
 
 ## Settings
@@ -14,8 +16,6 @@
 | hoverSize | Number | The size of the cursor when hovering over a selected target| 
 
 ## Example 
-
-Include the component in `App.vue`.
 
 ```
     <custom-cursor
