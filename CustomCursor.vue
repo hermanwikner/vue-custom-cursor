@@ -19,7 +19,6 @@ export default {
   data() {
     return {
       scale: 1,
-      atTarget: false,
       x: null,
       y: null,
       circlePosX: null,
@@ -52,12 +51,10 @@ export default {
           this.targets.includes(e.target.tagName.toLowerCase())) ||
         this.targets.includes(e.target.className.toLowerCase())
       ) {
-        this.atTarget = true;
         this.scale = this.hoverSize;
         this.circleStyle = { borderColor: this.circleColorHover };
         this.dotStyle = { backgroundColor: this.dotColorHover };
       } else {
-        this.atTarget = false;
         this.scale = 1;
         this.circleStyle = { borderColor: this.circleColor };
         this.dotStyle = { backgroundColor: this.dotColor };
