@@ -4,10 +4,16 @@ Include the component in `App.vue`.
 
 ## Settings
 
-| Option      | Type         |
-| ------------- |:-------------:|
-| targets     | Array | 
+| Props      | Type         | Description |
+| ------------- |:-------------:|:-------------:|
+| targets     | Array | Class-names or tag-names which should trigger the hover animation | 
+| circleColor | String | The color of the outer circle | 
+| dotColor | String | The color of the inner dot | 
+| circleColorHover | String | The color of the outer circle when hovering over a selected target | 
+| dotColorHover | String | The color of the inner dot when hovering over a selected target| 
+| hoverSize | Number | The size of the cursor when hovering over a selected target| 
 
+## Example 
 
 ```
     <custom-cursor
