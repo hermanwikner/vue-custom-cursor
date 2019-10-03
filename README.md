@@ -8,7 +8,7 @@ Include the component in `App.vue`. Also, you might want to hide the default cur
 
 | Props      | Type         | Description |
 | :------------- |:-------------|:-------------|
-| targets     | Array | Class-names or tag-names which should trigger the hover animation | 
+| targets     | Array | Class-names and/or tag-names which should trigger the hover animation | 
 | circleColor | String | The color of the outer circle | 
 | dotColor | String | The color of the inner dot | 
 | circleColorHover | String | The color of the outer circle when hovering over a selected target | 
