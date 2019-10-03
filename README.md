@@ -1,6 +1,6 @@
 # Vue-Custom-Cursor
 
-Include the component in `App.vue`.
+![alt text](https://raw.githubusercontent.com/hermanwikner/Vue-Custom-Cursor/master/vue-custom-cursor.gif)
 
 ## Settings
 
@@ -15,6 +15,8 @@ Include the component in `App.vue`.
 
 ## Example 
 
+Include the component in `App.vue`.
+
 ```
     <custom-cursor
       :targets="['img', 'a', 'button', 'your-hover-class']"
@@ -25,5 +27,3 @@ Include the component in `App.vue`.
       :hoverSize="1.8"
     ></custom-cursor>
 ``` 
-
-![alt text](https://raw.githubusercontent.com/hermanwikner/Vue-Custom-Cursor/master/vue-custom-cursor.gif)
