@@ -17,7 +17,7 @@ Include the component in `App.vue`. Also, you might want to hide the default cur
 
 ## Example 
 
-```
+```js
     <custom-cursor
       :targets="['img', 'a', 'button', 'your-hover-class']"
       :circleColor="'#fff'"
