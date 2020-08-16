@@ -49,7 +49,9 @@ export default {
       if (
         (this.targets.length > 0 &&
           this.targets.includes(e.target.tagName.toLowerCase())) ||
-        this.targets.includes(e.target.className.toLowerCase())
+          
+				//NEW making an array from the className string and checking if it has intersections with the targets array
+					this.targets.filter(c => e.target.className.split(' ').includes(c)).length > 0
       ) {
         this.scale = this.hoverSize;
         this.circleStyle = { borderColor: this.circleColorHover };
